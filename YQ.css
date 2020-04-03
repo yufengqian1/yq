@@ -1,0 +1,76 @@
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+.add_background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+    background-size: cover;
+    min-height: 650px;
+    background-position: center; 
+}
+
+.btn{
+    text-shadow: none;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+section {
+    padding: 5%;
+}
+
+.content{
+	padding-top: 20%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.summary {
+    margin-top: 10%;
+    border: 1px solid;
+    margin-bottom: 15%;
+    border-radius: 5px;
+}
+
+
+.resume{
+    margin-top: 0;
+    color: black;
+}
+
+
+.resume_content li{
+    list-style-type: circle;
+    font-size: 1.2em;
+    padding: 0.5%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.job_title{
+    font-style: italic;
+}
+
+#school li{
+    padding: 1%;
+}
