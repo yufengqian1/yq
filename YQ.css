@@ -30,7 +30,7 @@ section {
 }
 
 .content{
-	padding-top: 18%;
+	padding-top: 15%;
 	text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
@@ -45,7 +45,7 @@ hr {
 
 
 .summary {
-    margin-top: 5%;
+    margin-top: 4%;
     border: 1px solid;
     margin-bottom: 5%;
     border-radius: 5px;
@@ -55,7 +55,7 @@ hr {
 
 .summary h5{
     font-size: 1.3em;
-    line-height: 150%;
+    line-height: 130%;
 }
 
 .summary li{
@@ -63,7 +63,7 @@ hr {
 }
 
 a {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .contact {
@@ -75,9 +75,9 @@ a {
     font-size: 1.3em;
 }
 
-a:hover{
+.nav a:hover{
     text-decoration: underline;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 
@@ -95,6 +95,17 @@ a:hover{
 
 .company-name{
     font-weight: bold;
+    color: black;
+}
+
+.company-link {
+    font-weight: bold;
+    color: black;
+}
+
+.resume a:hover {
+    color: black;
+    cursor: -webkit-grab; cursor: grab;
 }
 
 
