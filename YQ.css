@@ -6,6 +6,7 @@ html {
     height: 100%;
     font-family: "Lato";
     color: white;
+    
 }
 
 .add_background{
@@ -92,9 +93,10 @@ a:hover{
     padding: 0.5%;
 }
 
-span {
+.company-name{
     font-weight: bold;
 }
+
 
 .job_title{
     font-style: italic;
