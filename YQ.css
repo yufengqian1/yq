@@ -11,9 +11,11 @@ html {
 
 
 .add_background{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    min-height: 600px;
+    background: linear-gradient( to top, rgba(255,255,255,0),
+              rgba(255,255,255,1)),url(https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    min-height: 400px;
     background-size: cover;
+    background-repeat: no-;
     background-position: center center; 
     
 
@@ -35,9 +37,6 @@ section {
 .content{
 	padding-top: 18%;
 	text-align: center;
-    //text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-    //             0px 8px 13px rgba(0,0,0,0.1),
-    //             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 hr {
@@ -73,15 +72,6 @@ a {
     font-size: 1.1em;
 }
 
-.contact {
-    margin-bottom: 1%;
-}
-
-.contact a{
-    color: white;
-    padding: 1em;
-    font-size: 1.3em;
-}
 
 .fa-envelope {
     color: #D44638;
