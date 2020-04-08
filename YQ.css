@@ -79,6 +79,7 @@ a {
 
 .email:hover .fa-envelope:before {
       content:"\f658";
+      font-weight: 900;
 }
 
 .fa-linkedin{
